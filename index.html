@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sagor's Portfolio</title>
+  
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- =====================
+       Scroll Progress
+       ===================== -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- =====================
+       Navbar
+       ===================== -->
+  <header>
+    <nav>
+      <a href="#home" class="logo">🍁 Sagor Islam ⟩⟩</a>
+      <ul>
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- =====================
+       Hero Section
+       ===================== -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <!-- Profile Picture First -->
+      <div class="profile-container">
+        <img src="profile_image.png" 
+             alt="Profile Picture" class="profile-pic">
+      </div>
+      
+      <!-- Text Content Below Picture -->
+      <div class="hero-text">
+        <h1>Hi, I'm <span class="name">Sagor</span></h1>
+        <h3>App & Web Developer</h3>
+        <p>I am a skilled software and web developer dedicated to building responsive, user-friendly applications and websites. I focus on writing clean, maintainable code paired with elegant, intuitive design.</p>
+        
+        <!-- Buttons -->
+        <div class="hero-btns">
+          <a href="#projects" class="btn">View My Projects</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================
+       Skills Section
+       ===================== -->
+  <section id="skills">
+    <div class="section-title">
+      <h2>My Skills</h2>
+    </div>
+    <div class="skills-container">
+      <div class="skill-card">
+        <div class="skill-icon">🌐</div>
+        <h3>Frontend Development</h3>
+        <ul class="skill-list">
+          <li>HTML5, CSS3, JavaScript (ES6+)</li>
+          <li>React.js, Vue.js, TypeScript</li>
+          <li>Responsive Web Design</li>
+          <li>Tailwind CSS, Material-UI</li>
+          <li>Performance Optimization</li>
+        </ul>
+      </div>
+      
+      <div class="skill-card">
+        <div class="skill-icon">⚙️</div>
+        <h3>Backend Development</h3>
+        <ul class="skill-list">
+          <li>Node.js, Express.js</li>
+          <li>Python, Django, Flask</li>
+          <li>RESTful & GraphQL APIs</li>
+          <li>MongoDB, PostgreSQL, MySQL</li>
+          <li>Authentication & Security</li>
+        </ul>
+      </div>
+      
+      <div class="skill-card">
+        <div class="skill-icon">🛠️</div>
+        <h3>Tools & Others</h3>
+        <ul class="skill-list">
+          <li>Git, GitHub, GitLab</li>
+          <li>Docker, CI/CD</li>
+          <li>Figma, Adobe XD</li>
+          <li>AWS, Firebase</li>
+          <li>Agile Methodology</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================
+       Projects Section
+       ===================== -->
+  <section id="projects">
+    <div class="section-title">
+      <h2>My Projects</h2>
+    </div>
+    <div class="projects-container">
+      <div class="project-card">
+        <div class="project-img">
+          <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" 
+               alt="E-commerce Platform">
+        </div>
+        <div class="project-content">
+          <h3>E-Commerce Platform</h3>
+          <p>Full-featured online shopping platform with user authentication, cart system, payment integration, and admin dashboard.</p>
+          <div class="project-tags">
+            <span>React</span>
+            <span>Node.js</span>
+            <span>MongoDB</span>
+            <span>Stripe</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="project-card">
+        <div class="project-img">
+          <img src="https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80" 
+               alt="Task Management App">
+        </div>
+        <div class="project-content">
+          <h3>Task Management App</h3>
+          <p>Collaborative task management tool with real-time updates, drag & drop, team collaboration, and analytics dashboard.</p>
+          <div class="project-tags">
+            <span>Vue.js</span>
+            <span>Express</span>
+            <span>Socket.io</span>
+            <span>PostgreSQL</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="project-card">
+        <div class="project-img">
+          <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1115&q=80" 
+               alt="Portfolio Website">
+        </div>
+        <div class="project-content">
+          <h3>Portfolio Website</h3>
+          <p>Modern portfolio website with dark mode, animations, blog system, and responsive design across all devices.</p>
+          <div class="project-tags">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+            <span>GSAP</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================
+       Contact Section - Tilt Effect
+       ===================== -->
+  <section class="contact" id="contact">
+    <div class="section-title">
+      <h2>Get In Touch</h2>
+    </div>
+    <div class="contact-container">
+      <p>Feel free to reach out for collaborations or just to say hello!</p>
+      
+      <div class="contact-links tilt-cards">
+        <!-- Email -->
+        <a href="mailto:sagor.xzx.dev@gmail.com" class="contact-link tilt">
+          <div class="tilt-icon email-icon">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M3 8L10.89 13.26C11.2187 13.4793 11.6049 13.5963 12 13.5963C12.3951 13.5963 12.7813 13.4793 13.11 13.26L21 8M5 19H19C20.1 19 21 18.1 21 17V7C21 5.9 20.1 5 19 5H5C3.9 5 3 5.9 3 7V17C3 18.1 3.9 19 5 19Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div class="tilt-content">
+            <span class="tilt-title">Email</span>
+            <span class="tilt-sub">sagor.xzx.dev@gmail.com</span>
+          </div>
+          <div class="tilt-arrow">→</div>
+        </a>
+        
+        <!-- GitHub -->
+        <a href="https://github.com/sagorxzx" target="_blank" class="contact-link tilt">
+          <div class="tilt-icon github-icon">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M9 19C4 20.5 4 16.5 2 16M16 22V18.13C16.0375 17.6532 15.9731 17.1738 15.811 16.7238C15.6489 16.2738 15.3929 15.8634 15.06 15.52C18.2 15.17 21.5 13.98 21.5 8.52C21.4997 7.12383 20.9627 5.7812 20 4.77C20.4559 3.54851 20.4236 2.19835 19.91 1C19.91 1 18.73 0.65 16 2.48C13.708 1.85882 11.292 1.85882 9 2.48C6.27 0.65 5.09 1 5.09 1C4.57638 2.19835 4.54414 3.54851 5 4.77C4.03013 5.7887 3.49252 7.14346 3.5 8.55C3.5 13.97 6.8 15.16 9.94 15.55C9.611 15.89 9.35726 16.2954 9.19531 16.7399C9.03335 17.1844 8.96681 17.6581 9 18.13V22" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div class="tilt-content">
+            <span class="tilt-title">GitHub</span>
+            <span class="tilt-sub">@sagorxzx</span>
+          </div>
+          <div class="tilt-arrow">→</div>
+        </a>
+        
+        <!-- LinkedIn -->
+        <a href="https://linkedin.com" target="_blank" class="contact-link tilt">
+          <div class="tilt-icon linkedin-icon">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M16 8C17.5913 8 19.1174 8.63214 20.2426 9.75736C21.3679 10.8826 22 12.4087 22 14V21H18V14C18 13.4696 17.7893 12.9609 17.4142 12.5858C17.0391 12.2107 16.5304 12 16 12C15.4696 12 14.9609 12.2107 14.5858 12.5858C14.2107 12.9609 14 13.4696 14 14V21H10V14C10 12.4087 10.6321 10.8826 11.7574 9.75736C12.8826 8.63214 14.4087 8 16 8Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M6 9H2V21H6V9Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M4 6C5.10457 6 6 5.10457 6 4C6 2.89543 5.10457 2 4 2C2.89543 2 2 2.89543 2 4C2 5.10457 2.89543 6 4 6Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div class="tilt-content">
+            <span class="tilt-title">LinkedIn</span>
+            <span class="tilt-sub">Professional Network</span>
+          </div>
+          <div class="tilt-arrow">→</div>
+        </a>
+        
+        <!-- Facebook -->
+        <a href="https://www.facebook.com/sagor.islam.sajjad.2025" target="_blank" class="contact-link tilt">
+          <div class="tilt-icon facebook-icon">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M18 2H15C13.6739 2 12.4021 2.52678 11.4645 3.46447C10.5268 4.40215 10 5.67392 10 7V10H7V14H10V22H14V14H17L18 10H14V7C14 6.73478 14.1054 6.48043 14.2929 6.29289C14.4804 6.10536 14.7348 6 15 6H18V2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div class="tilt-content">
+            <span class="tilt-title">Facebook</span>
+            <span class="tilt-sub">Sagor Islam Sajjad</span>
+          </div>
+          <div class="tilt-arrow">→</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================
+       Footer
+       ===================== -->
+  <footer>
+    <div class="footer-content">
+      <div class="copyright">
+        <p>⟨ -- Designed by Sagor -- ⟩</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =====================
+       Back to Top Button
+       ===================== -->
+  <a href="#home" class="back-to-top" id="backToTop">↑</a>
+
+  <!-- External JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
