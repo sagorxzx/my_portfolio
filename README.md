@@ -4,8 +4,8 @@
 
 ### *App & Web Developer*
 
-[![Website](https://img.shields.io/badge/🌐_LIVE_DEMO-Visit_Now-3b82f6?style=for-the-badge&logo=google-chrome&logoColor=white)](https://sagorxzx.github.io/my_portfolio)
-[![GitHub](https://img.shields.io/badge/📂_SOURCE_CODE-View_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sagorxzx/my_portfolio)
+[![Website](https://img.shields.io/badge/_LIVE_DEMO-Visit_Now-3b82f6?style=for-the-badge&logo=google-chrome&logoColor=white)](https://sagorxzx.github.io/my_portfolio)
+[![GitHub](https://img.shields.io/badge/_SOURCE_CODE-View_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sagorxzx/my_portfolio)
 
 </div>
 
